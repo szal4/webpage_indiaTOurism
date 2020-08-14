@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./img/watercolour-4117017_1280.png) center/cover no-repeat fixed;
+}
+.tool {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  border-bottom: 1px solid black;
+}
+.tool ul > li {
+  text-align: center;
+  margin: 0px 10px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: orange;
+  font-size: 17px;
+}
+/* nav work end */
+.p0 {
+  margin: 120px 0px;
+}
+.col-md-4,
+.col-md-6 {
+  text-align: center;
+  min-height: 400px;
+}
+.head {
+  text-align: center;
+  color: brown;
+}
+.row img {
+  border: 3px solid rgb(0, 32, 80);
+}
+.row img:hover {
+  box-shadow: 5px 5px 5px rgb(0, 32, 80);
+  transform: scale(1.05, 1.05);
+}
+
+.sub {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  transform: translateY(10px);
+}
+
+.dis {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 70px;
+  font-size: 19px;
+  /* color: rgba(52, 138, 179, 0.863); */
+  color: blue;
+  font-weight: 500;
+}
+#p1dis,
+#cwuii {
+  font-weight: 800;
+  font-size: 22px;
+  color: black;
+}
+.container {
+  background-color: whitesmoke;
+  margin-top: 150px;
+}
+
+.cwulogo {
+  text-align: center;
+  word-spacing: 20vw;
+}
+/* connect with us */
+.cwuicon {
+  text-align: center;
+  font-size: 50px;
+}
+.cwuicon a {
+  margin: 0 20px;
+  color: black;
+}
+.cwucr {
+  text-align: center;
+  margin-top: 30px;
+  display: inline-block;
+  width: 96vw;
+}
